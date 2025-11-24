@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "carob_api"
+version = "0.1.0"
+description = "Simple wrapper for the Qvantum Carob API"
+authors = [{name="Your Name"}]
+dependencies = ["requests", "pydantic"]
+requires-python = ">=3.9"
