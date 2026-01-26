@@ -1,5 +1,5 @@
 GENERAL_SETTINGS:
-  ee_project_name: ee-anaguilarar
+  ee_project_name: 'YOUR EE-GEE PROJECT'
   donwnload_data_cube: False
   donwnload_coordinatedata_asdssat: False
   output_path: runs
