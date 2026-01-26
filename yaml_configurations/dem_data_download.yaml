@@ -1,5 +1,5 @@
 GENERAL_SETTINGS:
-  ee_project_name: ee-anaguilarar
+  ee_project_name: 'YOUR EE-GEE PROJECT' 
   donwnload_as_raster: True
   donwnload_coordinatedata: False
   output_path: runs
