@@ -1,5 +1,5 @@
 GENERAL_SETTINGS:
-  ee_project_name: ee-anaguilarar
+  ee_project_name: 'YOUR EE-GEE PROJECT'
   output_path: runs
   use_case: null
 
