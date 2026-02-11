@@ -57,13 +57,14 @@ cd agwise_data_sourcing
 conda create -n agwise python=3.10
 conda activate agwise
 
+conda install -y openssl=3.0
 pip install -r requirements.txt
 
 earthengine authenticate
 
 ```
 
-*Optional*: you can intall the module to transform soil data into the DSSAT format
+*Optional*: you can install the module to transform soil data into the DSSAT format
 
 ``` Bash
 git clone https://github.com/anaguilarar/WeatherSoilDataProcessor.git
@@ -205,7 +206,7 @@ python download_modis.py -config yaml_configurations/modis_data_download.yaml
 
 
 ## Using the code in R
-The scripts can also be executed from R using the reticulate package. To run the script in R, it is needed to indicate the conda enviroment which previously created (check Intallation section). Then you will need to set the working directory on the github repository clone.
+The scripts can also be executed from R using the reticulate package. To run the script in R, it is needed to indicate the conda environment which previously created (check Installation section). Then you will need to set the working directory on the github repository clone.
 
 ``` R
 
