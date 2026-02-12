@@ -51,7 +51,7 @@ The tools are intended for researchers who require analysis-ready geospatial dat
 Follow the following code to install and configure the Ag-Wise Data Sourcing toolkit.
 
 ``` Bash
-git clone https://github.com/anaguilarar/agwise_data_sourcing.git
+git clone https://github.com/CGIAR-AgWise/agwise_data_sourcing.git
 cd agwise_data_sourcing
 
 conda create -n agwise python=3.10
